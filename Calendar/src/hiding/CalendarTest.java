@@ -19,5 +19,6 @@ public class CalendarTest {
         System.out.println(year + "년 "+ mon+"월 "+day+"일");
         System.out.println(hour + "시 "+ min+"분 "+sec+"초");    
     }
+    // 시간 정보들 확인 코드 Calendar 사용시 import 시켜줘야함..
 
 }
