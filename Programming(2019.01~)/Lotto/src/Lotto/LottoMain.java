@@ -19,14 +19,19 @@ public class LottoMain {
 	public final int RECOMMANDATION_NUMBER =1;
 	public final int PRINT_NUMBER = 2;
 	public final int EXIT = 3;
-	
+	// 메인함수 호출  1번
 	public LottoMain() {
 //		InputStreamReader / OutputStreamWriter는 바이트 스트림에서 문자 스트림으로, 
 //		또는 문자 스트림에서 바이트 스트림으로의 변환을 제공하는 입출력 스트림이다. 
 //		바이트를 읽어서 지정된 문자 인코딩에 따라 문자로 변환하는데 사용한다.
 
 		in = new BufferedReader(new InputStreamReader(System.in));
+		// 생성 변수 초기화
+		// LottoPro 에서 함수를 찾아 봅시다.
 		program = new LottoPro(true);
+		// 메인 함수 내에서 실행 되는 것이 아닌, 
+		// 메인 함수가 생성한 자기 자신의 인스턴스에 의해 실행되므로,
+		// static 메서드가 아닌 start 를 실행 할 수 있습니다. 
 		start();
 			
 	}
