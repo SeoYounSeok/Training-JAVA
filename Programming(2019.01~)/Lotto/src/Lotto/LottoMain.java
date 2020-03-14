@@ -59,6 +59,7 @@ public class LottoMain {
 					continue;	
 					}	
 			switch(this.command){	
+			// case 변수 3개가 있는데, 깔끔하게 적기 위해서 변수를 입력한 것 같습니다. 
 			case RECOMMANDATION_NUMBER: 
 				program.start_recommandation();	
 				break;	
